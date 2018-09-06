@@ -1,0 +1,50 @@
+.ruby-navbar-container {
+    background-color: #e9573f;
+    display: flex;
+    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.ruby-links {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    text-align: right;
+}
+.ruby-search-bar {
+    /* float: left; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 12rem;
+}
+.ruby-search-bar form {
+    display: flex;
+}
+::placeholder {
+    color: #e9573f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.ruby-image {
+    height: 30px;
+    width: 30px;
+    /* float: left; */
+    margin-right: 2rem;
+}
+.ruby-navbar-content {
+    margin: 0;
+    padding: 0cm;
+}
+.gem-list {
+    display: flex;
+    list-style: none;
+}
+.search-image {
+    height: 15px;
+    width: 15px;
+    margin-left: -25px;
+    margin-top: 7px;
+}
